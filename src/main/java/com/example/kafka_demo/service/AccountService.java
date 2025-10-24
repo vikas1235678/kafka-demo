@@ -2,7 +2,9 @@ package com.example.kafka_demo.service;
 
 import com.example.kafka_demo.dao.AccountDao;
 import com.example.kafka_demo.model.UserAccount;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AccountService {
 
     private final AccountDao accountDao;
